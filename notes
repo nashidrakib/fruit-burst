@@ -1,0 +1,13 @@
+main marks:
+1. navbar(rounded) full with searchBox(icon and rounded)
+2. banner section(without fruit part) slider title and (description optional) button
+3. deal of the day Section(full) leftside title rightside date/time, 4 cards below(image price title rating details) shopAll Button
+4. meet the team section(full) (title description background dark image rounded images)
+5. why choose us section(bonus)
+6. footer section(full) 
+
+Bonus:
+banner 5 fruit menu 
+deal of the day section Details modal
+why choose us section(full)
+Responsive mainly mobile how its shown in layout (but in tablet be creative with it)
