@@ -14,6 +14,19 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
+    <!-- custom colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'main-orange': '#F85559'
+                    }
+                }
+            }
+        }
+    </script>
     <!-- styles -->
     <style>
         body {
@@ -23,7 +36,74 @@
 </head>
 
 <body>
-    
+    <header>
+        <!-- navbar -->
+        <nav class="flex justify-center">
+            <div
+                class="container py-6 lg:w-[75%] my-[30px] flex justify-center navbar lg:bg-main-orange md:bg-main-orange rounded-[600px]">
+                <div class="navbar-start ml-6 w-[500px]">
+                    <img class="lg:hidden " src="images/logo.png" alt="">
+                    <h3 class="lg:hidden ml-[10px] text-[30px] font-bold">Fruit Burst</h3>
+                    <div class="text-white hidden sm:block">
+                        <button class="mr-5">Home</button>
+                        <button class="mr-5">About Us</button>
+                        <button class="mr-5">Shop</button>
+                        <button class="mr-5">All Fruits</button>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <img class="w-9" src="images/logo.png" alt="">
+                    <h3 class="ml-3 text-3xl font-bold text-white">Fruit Burst</h3>
+                </div>
+                <div class="navbar-end ">
+                    <div class="lg:hidden md:hidden">
+                        <button class="btn btn-square btn-ghost">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-[40px] h-[40px] stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                          </button>
+                    </div>
+                    <input class="hidden sm:block rounded-[50px] mr-3 p-[7px] w-64" type="text"
+                        placeholder="     Search here" class="input input-bordered w-24 lg:f md:w-auto" />
+                    <img class="hidden sm:block w-[15px] relative right-[50px]" src="images/search-icon.png" alt="">
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner section -->
+        <section>
+
+        </section>
+
+    </header>
+
+    <main>
+        <!-- deal-of-the-day section -->
+        <section>
+
+        </section>
+
+        <!-- meet-the-team section -->
+        <section>
+
+        </section>
+
+        <!-- why-choose-us section -->
+        <section>
+
+        </section>
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer footer-center p-10 bg-black text-white font-bold">
+        <div class="flex">
+          <img src="images/logo.png" alt="">
+          <h3 class="text-3xl ml-2">Fruit Burst</h3>
+        </div> 
+        <div>
+          <div class="grid grid-flow-col gap-4">
+            <img src="images/" alt="">
+          </div>
+        </div>
+      </footer>
 </body>
 
 </html>
